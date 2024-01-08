@@ -1,9 +1,10 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Title(props) {
     return (
-        <div>
-            <h2>타이틀 입니다.</h2>
+        <div className='title'>
+            <NavLink to='/'>JUMPRUN</NavLink>
         </div>
     );
 }

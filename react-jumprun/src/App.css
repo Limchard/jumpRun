@@ -2,23 +2,39 @@
   text-align: center;
 }
 div.title{
-  position: absolute;
-  top: 0;
-  border: 2px solid red;
+  margin-top: 1%;
+}
+div.title a{
+  margin-left: 1%;
+  font-weight: bold;
+  color: #457be4;
+  font-size: 2em;
 }
 div.menu{
-  position: absolute;
-  top: 200px;
-  border: 2px solid blue;
+  margin-top: 2%;
+  background-color: #457be4;
+  width: 100%;
+  text-align: center;
+}
+a{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: gray;
+  text-decoration: none;
 }
 div.main{
-  position: absolute;
-  top: 500px;
+  margin-top: 5%;
   border: 2px solid green;
+  width: 100%;
 }
 div.footer{
-  position: absolute;
-  top: 800px;
+  margin-top: 10%;
   border: 2px solid orange;
 }
+
 
