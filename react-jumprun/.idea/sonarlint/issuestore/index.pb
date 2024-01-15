@@ -3,10 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ?
 src/App.test.js,9/2/923703ced91ac38943d37930d9d27a7ebe8f01ad
-@
-src/Root.js.html,3/6/36efe17b06a7297117491b6ed50c9fef99bf3b91
->
-src/Root.sj.js,5/2/52705d78c7b53da0efebf885d96f5e33102e0e8f
 ;
 src/Root.js,8/a/8a1fc3c171a4e10f761036120e663dff78779fb2
 @
@@ -25,3 +21,5 @@ H
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
+C
+src/login/login.css,4/5/454963a1f82500a4044c4bf9150f7d4cb2773702
