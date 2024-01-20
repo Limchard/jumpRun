@@ -1,8 +1,13 @@
 .App {
   text-align: center;
 }
-div.title{
-  margin-top: 1%;
+div.title-box{
+  width: 100%;
+  display: inline;
+}
+span.title{
+  display: inline-block;
+  margin-top: 10px;
 }
 div.title a{
   margin-left: 1%;
@@ -28,13 +33,29 @@ a:hover{
   text-decoration: none;
 }
 div.main{
-  margin-top: 5%;
+  margin-top: 50px;
   border: 2px solid green;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 div.footer{
   margin-top: 10%;
   border: 2px solid orange;
 }
 
+span.login{
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: #457be4;
+  float: right;
+}
+
+span.login a{
+  color: white;
+}
 
