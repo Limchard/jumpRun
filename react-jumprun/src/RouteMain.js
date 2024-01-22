@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import {Route, Routes} from "react-router-dom";
 import {Login, LoginForm} from "./login";
+import SignUpForm from "./member/SignUpForm";
 
 function RouteMain(props) {
     return (
@@ -16,6 +17,7 @@ function RouteMain(props) {
                     <Route path={'/'} element={<Main/>}/>
 
                     <Route path={'/login'} element={<LoginForm/>}/>
+                    <Route path={'/member/signup'} element={<SignUpForm/>}/>
                 </Routes>
             </div>
             <div className={'footer'}><Footer/></div>

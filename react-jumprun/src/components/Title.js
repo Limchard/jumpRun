@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Title(props) {
 
     function goLoginForm(){
-        window.location='/login';
+        window.location='/login/';
     }
 
     return (
