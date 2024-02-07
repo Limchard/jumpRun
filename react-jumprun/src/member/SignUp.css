@@ -1,4 +1,52 @@
+
+div.signup-title{
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 div.signup-box{
+    width: 500px;
+    font-size: 24px;
+    color: #457be4;
+    font-weight: bold;
+}
+
+.signup-box div{
     width: 400px;
-    height: 700px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+div.signup-name{
+    display: inline-flex;
+    width: 80px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.signup-box input{
+    width: 70%;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(221,221,221);
+    border-radius: 7px;
+    color: rgb(51,51,51);
+}
+
+div.signup-id{
+
+}
+input.signup-input{
+
+}
+div.pw-box{
+
+}
+input.pw-input{
+
 }
