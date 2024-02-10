@@ -36,32 +36,31 @@ div.signup-name {
     border: 1px solid rgb(221, 221, 221);
     border-radius: 7px;
     color: rgb(51, 51, 51);
+
 }
 
 div.hp-box {
     display: inline-block;
 }
 
-input.hp-input {
-    width: 75px;
-}
-
 select.hp-select {
-    -o-appearance: none; /* 화살표 없애기 for opera */
-    -webkit-appearance: none; /* 화살표 없애기 for chrome */
-    -moz-appearance: none; /* 화살표 없애기 for firefox */
-    appearance: none; /* 화살표 없애기 공통 */
+    outline: none;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 7px;
+    color: rgb(51, 51, 51);
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
 }
 
-/* IE */
-select::-ms-expand {
-    display: none; /* 화살표 없애기 Internet Explorer 10,11 */
+input.hp-input {
+    width: 55px;
 }
-
 
 span.hp-hyphen {
-    color: black;
     font-weight: normal;
     margin-left: 10px;
     margin-right: 10px;
+    color: rgb(51, 51, 51);
 }
