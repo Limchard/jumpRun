@@ -81,6 +81,10 @@ function SignUpForm(props) {
                 <div className={'signup-article'}>
                     <div className={'signup-name'}>이메일</div>
                     <input type={"text"} placeholder={'이메일'}/>
+                    <span className={'email-at'}>@</span>
+                    <select>
+                        <option>네이버</option>
+                    </select>
                 </div>
                 <div className={'signup-article'}>
                     <div className={'signup-name'}>주소</div>

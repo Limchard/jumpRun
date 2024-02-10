@@ -58,7 +58,7 @@ input.hp-input {
     width: 55px;
 }
 
-span.hp-hyphen {
+span.hp-hyphen, div.email-at {
     font-weight: normal;
     margin-left: 10px;
     margin-right: 10px;
