@@ -1,5 +1,5 @@
 
-div.signup-title{
+div.signup-title {
     width: 100%;
     font-size: 1.2em;
     margin-top: 20px;
@@ -7,46 +7,61 @@ div.signup-title{
     justify-content: center;
 }
 
-div.signup-box{
+div.signup-box {
     width: 500px;
     font-size: 24px;
     color: #457be4;
     font-weight: bold;
 }
 
-.signup-box div{
+.signup-box div.signup-article {
     width: 400px;
     height: 50px;
     margin-bottom: 10px;
 }
 
-div.signup-name{
+div.signup-name {
     display: inline-flex;
     width: 80px;
     font-size: 16px;
     font-weight: bolder;
 }
 
-.signup-box input{
+.signup-box input {
     width: 70%;
     font-size: 18px;
     padding: 5px 10px 5px 10px;
     border: none;
     outline: none;
-    border: 1px solid rgb(221,221,221);
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 7px;
-    color: rgb(51,51,51);
+    color: rgb(51, 51, 51);
 }
 
-div.signup-id{
-
+div.hp-box {
+    display: inline-block;
 }
-input.signup-input{
 
+input.hp-input {
+    width: 75px;
 }
-div.pw-box{
 
+select.hp-select {
+    -o-appearance: none; /* 화살표 없애기 for opera */
+    -webkit-appearance: none; /* 화살표 없애기 for chrome */
+    -moz-appearance: none; /* 화살표 없애기 for firefox */
+    appearance: none; /* 화살표 없애기 공통 */
 }
-input.pw-input{
 
+/* IE */
+select::-ms-expand {
+    display: none; /* 화살표 없애기 Internet Explorer 10,11 */
+}
+
+
+span.hp-hyphen {
+    color: black;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
 }

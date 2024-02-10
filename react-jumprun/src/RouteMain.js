@@ -4,7 +4,7 @@ import Menu from "./components/Menu";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import {Route, Routes} from "react-router-dom";
-import {Login, LoginForm} from "./login";
+import {LoginForm} from "./login";
 import SignUpForm from "./member/SignUpForm";
 
 function RouteMain(props) {
