@@ -49,5 +49,3 @@ E
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-D
-src/member/testjs.js,a/9/a93c213aae513cbd47b559d8a58b687a236829ca

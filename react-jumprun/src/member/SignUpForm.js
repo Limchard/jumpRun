@@ -43,6 +43,11 @@ function SignUpForm(props) {
         setHp3(e.target.value);
     }
 
+    const onEmailChange = (e) => {
+        const {value} = e.target;
+        console.log(value);
+    }
+
     return (
         <div className={'signup-box'}>
             <form onSubmit={"login"}>
@@ -80,10 +85,15 @@ function SignUpForm(props) {
                 </div>
                 <div className={'signup-article'}>
                     <div className={'signup-name'}>이메일</div>
-                    <input type={"text"} placeholder={'이메일'}/>
+                    <input type={"text"} placeholder={'이메일'} className={'email-input'}/>
                     <span className={'email-at'}>@</span>
-                    <select>
-                        <option>네이버</option>
+                    <input type={"text"} placeholder={'주소'} className={'email-adress'}/>
+                    <select onChange={onEmailChange}>
+                        <option value={'-'}>직접입력</option>
+                        <option value={'google.com'}>구글</option>
+                        <option value={'naver.com'}>네이버</option>
+                        <option value={'nate.com'}>네이트</option>
+                        <option value={'daum.net'}>다음</option>
                     </select>
                 </div>
                 <div className={'signup-article'}>
