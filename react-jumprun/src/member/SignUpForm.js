@@ -81,14 +81,15 @@ function SignUpForm(props) {
                         <span className={'hp-hyphen'}>-</span>
                         <input type={"text"} className={'hp-input'} placeholder={'0000'}
                                onChange={changeHp3} maxLength={4} ref={hp3Ref}/>
+                        <button className={'hp-certification'}/>
                     </div>
                 </div>
                 <div className={'signup-article'}>
                     <div className={'signup-name'}>이메일</div>
                     <input type={"text"} placeholder={'이메일'} className={'email-input'}/>
                     <span className={'email-at'}>@</span>
-                    <input type={"text"} placeholder={'주소'} className={'email-adress'}/>
-                    <select onChange={onEmailChange}>
+                    <input type={"text"} placeholder={'주소'} className={'email-address'}/>
+                    <select className={'email-select'} onChange={onEmailChange}>
                         <option value={'-'}>직접입력</option>
                         <option value={'google.com'}>구글</option>
                         <option value={'naver.com'}>네이버</option>
