@@ -18,6 +18,7 @@ function SignUpForm(props) {
         emailOk: false
     });
 
+    const hp2Ref = useRef(null);
     // useRef를 상굥하여 세 번째 입력 필드에 대한 참조를 생성합니다.
     const hp3Ref = useRef(null);
     // 이게 JSP 에서 selector 지정하기 위한 작업 같은 느낌인듯
@@ -28,6 +29,7 @@ function SignUpForm(props) {
 
     const changeHp1 = (e) => {
         setHp1(e.target.value);
+        hp2Ref.current.focus();
     }
     const changeHp2 = (e) => {
         setHp2(e.target.value);
@@ -39,6 +41,11 @@ function SignUpForm(props) {
     }
     const changeHp3 = (e) => {
         setHp3(e.target.value);
+    }
+
+    const onEmailChange = (e) => {
+        const {value} = e.target;
+        console.log(value);
     }
 
     return (
@@ -63,14 +70,14 @@ function SignUpForm(props) {
                     <div className={'hp-box'}>
                         <select className={'hp-select'} onChange={changeHp1}>
                             <option value={'010'}>010</option>
+                            <option value={'011'}>011</option>
                             <option value={'016'}>016</option>
                             <option value={'017'}>017</option>
                             <option value={'018'}>018</option>
-                            <option value={'011'}>011</option>
                         </select>
                         <span className={'hp-hyphen'}>-</span>
                         <input type={"text"} className={'hp-input'} placeholder={'0000'}
-                               onChange={changeHp2} maxLength={4}/>
+                               onChange={changeHp2} maxLength={4} ref={hp2Ref}/>
                         <span className={'hp-hyphen'}>-</span>
                         <input type={"text"} className={'hp-input'} placeholder={'0000'}
                                onChange={changeHp3} maxLength={4} ref={hp3Ref}/>
@@ -78,7 +85,16 @@ function SignUpForm(props) {
                 </div>
                 <div className={'signup-article'}>
                     <div className={'signup-name'}>이메일</div>
-                    <input type={"text"} placeholder={'이메일'}/>
+                    <input type={"text"} placeholder={'이메일'} className={'email-input'}/>
+                    <span className={'email-at'}>@</span>
+                    <input type={"text"} placeholder={'주소'} className={'email-adress'}/>
+                    <select onChange={onEmailChange}>
+                        <option value={'-'}>직접입력</option>
+                        <option value={'google.com'}>구글</option>
+                        <option value={'naver.com'}>네이버</option>
+                        <option value={'nate.com'}>네이트</option>
+                        <option value={'daum.net'}>다음</option>
+                    </select>
                 </div>
                 <div className={'signup-article'}>
                     <div className={'signup-name'}>주소</div>

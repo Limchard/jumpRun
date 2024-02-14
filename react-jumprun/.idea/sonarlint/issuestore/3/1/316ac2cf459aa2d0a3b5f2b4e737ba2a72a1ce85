@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 Xjavascript:S1481"5Remove the declaration of the unused 'navi' variable.(ØîÂ©8ÆùÈÃÚ1
 Ujavascript:S1854"2Remove this useless assignment to variable "navi".(ØîÂ©8ÇùÈÃÚ1
 Xjavascript:S1481	"5Remove the declaration of the unused 'data' variable.(“Ì†×8ÇùÈÃÚ1
@@ -11,3 +12,17 @@ Tjavascript:S1854"1Remove this useless assignment to variable "hp1".(ş·§±8Ç
 Yjavascript:S1854"1Remove this useless assignment to variable "hp2".(øœ¬óıÿÿÿÿ8ÇùÈÃÚ1
 Wjavascript:S1481"4Remove the declaration of the unused 'hp3' variable.(®§—Ÿ8ÇùÈÃÚ1
 Tjavascript:S1854"1Remove this useless assignment to variable "hp3".(®§—Ÿ8ÈùÈÃÚ1
+=======
+Xjavascript:S1481"5Remove the declaration of the unused 'navi' variable.(ØîÂ©8‰µ…»Ù1
+Ujavascript:S1854"2Remove this useless assignment to variable "navi".(ØîÂ©8‰µ…»Ù1
+Xjavascript:S1481	"5Remove the declaration of the unused 'data' variable.(“Ì†×8‰µ…»Ù1
+Ujavascript:S1854	"2Remove this useless assignment to variable "data".(“Ì†×8‰µ…»Ù1
+[javascript:S1481	"8Remove the declaration of the unused 'setData' variable.(“Ì†×8‰µ…»Ù1
+Xjavascript:S1854	"5Remove this useless assignment to variable "setData".(“Ì†×8‰µ…»Ù1
+Wjavascript:S1481"4Remove the declaration of the unused 'hp1' variable.(ş·§±8Šµ…»Ù1
+Tjavascript:S1854"1Remove this useless assignment to variable "hp1".(ş·§±8Šµ…»Ù1
+\javascript:S1481"4Remove the declaration of the unused 'hp2' variable.(øœ¬óıÿÿÿÿ8Šµ…»Ù1
+Yjavascript:S1854"1Remove this useless assignment to variable "hp2".(øœ¬óıÿÿÿÿ8Šµ…»Ù1
+Wjavascript:S1481"4Remove the declaration of the unused 'hp3' variable.(®§—Ÿ8Šµ…»Ù1
+Tjavascript:S1854"1Remove this useless assignment to variable "hp3".(®§—Ÿ8Šµ…»Ù1
+>>>>>>> main
